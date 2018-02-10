@@ -3,7 +3,7 @@
 	"displayName": "BotML",
 	"description": "Support for botml file syntax",
 	"version": "0.2.7",
-	"publisher": "codename",
+	"publisher": "codename-co",
 	"license": "MIT",
 	"engines": {
 		"vscode": "^1.5.0"
