@@ -1,0 +1,49 @@
+{
+	"name": "botml",
+	"displayName": "BotML",
+	"description": "Support for botml file syntax",
+	"version": "0.2.7",
+	"publisher": "codename",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Languages"
+	],
+	"keywords": [
+		"bot",
+		"botml"
+	],
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#28A39F",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BotML/botml-language-vscode.git"
+	},
+	"contributes": {
+		"languages": [
+			{
+				"id": "botml",
+				"aliases": [
+					"BotML",
+					"bot"
+				],
+				"extensions": [
+					".bot"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "botml",
+				"scopeName": "source.botml",
+				"path": "./syntaxes/botml.tmLanguage"
+			}
+		]
+	}
+}

@@ -1,0 +1,43 @@
+! BOTML 1
+
+# Variables
+
+> Show me variables
+< Variables can be written like this: $string, ${string}, #{number}, *{any}
+> ok
+
+# Workflows
+
+~ Workflow
+> Love
+< I love you too
+~ [subworkflow]
+
+~ subworkflow
+< And so on
+
+# Lists
+
+= LIST
+- item #1
+- item #2
+
+> [LIST]
+< [LIST]
+
+# Services
+
+@ geo_domain http://freegeoip.net/json/$
+
+> *{domain}
+@ geo_domain($domain).city
+
+# Prompts
+
+< What is love?
+? [love_options]
+
+# Regular expressions
+
+> /This (.+) is great/
+< ok
