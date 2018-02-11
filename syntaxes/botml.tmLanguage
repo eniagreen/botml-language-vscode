@@ -60,7 +60,7 @@
         <key>name</key>
         <string>variable.interpolation.bot</string>
         <key>match</key>
-        <string>\$\w*</string>
+        <string>[\$#\*]\{\w+\}</string>
       </dict>
       <dict>
         <key>comment</key>
@@ -68,7 +68,7 @@
         <key>name</key>
         <string>variable.interpolation.bot</string>
         <key>match</key>
-        <string>[\$#\*]\{\w+\}</string>
+        <string>\$\w*</string>
       </dict>
       <dict>
         <key>comment</key>

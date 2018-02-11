@@ -2,7 +2,7 @@
 	"name": "botml",
 	"displayName": "BotML",
 	"description": "Support for botml file syntax",
-	"version": "0.2.8",
+	"version": "0.2.9",
 	"publisher": "codename-co",
 	"license": "MIT",
 	"engines": {
